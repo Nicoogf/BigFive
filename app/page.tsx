@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import Features from "./components/Faatures";
 import Faqs from "./components/Faqs";
 import Pricing from "./components/Pricing";
+import Cta from "./components/cta";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
          <Features />
          <Faqs />
          <Pricing />
+         <Cta />
         </div>
        
     </main>
